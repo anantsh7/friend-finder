@@ -201,7 +201,7 @@
                 }
                 var newSurvey = {
                     name: $("#name").val().trim(),
-                    scores: scoreArr
+                    scores: score
                 };
                 console.log(newSurvey);
                 $.post("/api/friends", newSurvey)
